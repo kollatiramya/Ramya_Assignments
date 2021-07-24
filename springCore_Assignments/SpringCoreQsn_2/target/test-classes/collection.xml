@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+		xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="listsetmap" class="com.collections.ListSetMap">
+	<property name="list">
+		<list>
+			<value>Ram</value>
+			<value>mohan</value>
+			<value>25</value>
+			<value>VVRM</value>
+		</list>
+	</property>
+	<property name="set">
+		<set>
+			<value>Ram</value>
+			<value>Mohan</value>
+			<value>56</value>
+			<value>VVRM</value>
+		</set>
+	</property>
+	<property name="map">
+		<map>
+			<entry key="What is ur first name ?" value="Ram" />
+			<entry key="What is last name ?" value="Mohan" />
+			<entry key="How old r u ?" value="25" />
+			<entry key="What is ur city? " value="VVRM" />
+		</map>
+	</property>
+
+</bean>
+</beans>
